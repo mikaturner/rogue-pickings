@@ -1,0 +1,106 @@
+/***** Base Styles *********/
+body {
+    color: black;
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 12.4px;
+}
+/***** Structure *********/
+.full-width{
+    margin: 0px 20px;
+    overflow: auto;
+    width: 1200px;
+}
+.title-section{
+    float: left;
+    width: 700px;
+}
+.nav-section{
+    float: left;
+    width: 500px;
+}
+.third-width{
+    border-top: 1px solid #dddadb;
+    border-bottom: 1px solid #dddadb;
+    float: left;
+    height: 190px;
+    width: 31%;
+}
+/*****Headline and Text Formatting******/
+h1 {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    line-height: 23px;
+    text-transform: uppercase;
+}
+h1 span {
+    color: #77A466;
+}
+nav{
+    font-weight: bold;
+    line-height: 38px;
+    text-transform: uppercase;
+}
+a{
+    color: #77A466;
+    text-decoration: none;
+}
+nav ul li{
+    display: inline-block;
+    padding-left: 20px;
+}
+img {
+    border-bottom: 3px solid #77A466;
+    border-top: 3px solid #77A466;  
+}
+h2{
+    color: #77A466;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 23px;
+    text-transform: uppercase;
+}
+.about {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: regular;
+    line-height: 25px;
+}
+/****** Menu-Reviews-Contact Section *********/
+h5{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#section-one p{
+    color: #77A466;
+    line-height: 24px;
+}
+#section-two{
+    border-left: 1px solid #dddadb;
+    border-right: 1px solid #dddadb;
+    line-height: 18px;
+    padding: 0px 20px;
+}
+#section-three{
+    line-height: 18px;  
+    padding: 0px 20px;
+}
+address{
+    font-style: normal;
+}
+/****** Footer ***************/
+h3{
+    font-size: 16px;
+    font-weight: bold; 
+    font-family: 'Montserrat', sans-serif;
+    line-height: 23px;
+    text-align: center;
+    text-transform: uppercase;
+}
+h3 span{
+    color: #77A466;
+    font-family:'Galada', cursive;
+    text-transform: lowercase;
+}
